@@ -183,4 +183,29 @@ img {
 }
 
 
+/* SEARCHBAR DROPDOWN */
+.search-bar .Select__control {
+    background-color: var(--background-1); 
+    border-color: var(--background-1); 
+    box-shadow: none; 
+}
 
+.search-bar .Select__control--is-focused {
+    border-color: #007bff; 
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); 
+}
+
+.search-bar .Select__menu {
+    background-color: var(--background-1); 
+    border-color: var(--background-1); 
+}
+
+.search-bar .Select__option--is-focused {
+    background-color: #007bff; 
+    color: var(--background-1); 
+}
+
+.search-bar .Select__option--is-selected {
+    background-color: #0056b3;
+    color: var(--background-1); 
+}
